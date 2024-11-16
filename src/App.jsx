@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <ComponentMenu/>
         <Routes>
-          <Route path='/home'  element={<ComponentHome />} ></Route>
+          <Route path='/'  element={<ComponentHome />} ></Route>
           <Route path='/about' element={<ComponentAbout />} ></Route>
           <Route path='/projects' element={<ComponentProjects />} ></Route>
           <Route path='/contact' element={<ComponentContact />} ></Route>
